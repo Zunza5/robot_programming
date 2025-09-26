@@ -1,0 +1,8 @@
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles/edit_cache.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles/rebuild_cache.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/src/CMakeFiles/core_library.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/src/CMakeFiles/edit_cache.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/src/CMakeFiles/rebuild_cache.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables/CMakeFiles/mini_core.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables/CMakeFiles/edit_cache.dir
+/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables/CMakeFiles/rebuild_cache.dir
