@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems
+CMAKE_SOURCE_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds
+CMAKE_BINARY_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables//CMakeFiles/progress.marks
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables//CMakeFiles/progress.marks
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/clean
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,39 +103,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/preinstall
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/preinstall
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-executables/CMakeFiles/mini_core.dir/rule:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/CMakeFiles/mini_core.dir/rule
-.PHONY : executables/CMakeFiles/mini_core.dir/rule
+executables/CMakeFiles/many_object_in_stack_example.dir/rule:
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/CMakeFiles/many_object_in_stack_example.dir/rule
+.PHONY : executables/CMakeFiles/many_object_in_stack_example.dir/rule
 
 # Convenience name for target.
-mini_core: executables/CMakeFiles/mini_core.dir/rule
-.PHONY : mini_core
+many_object_in_stack_example: executables/CMakeFiles/many_object_in_stack_example.dir/rule
+.PHONY : many_object_in_stack_example
 
 # fast build rule for target.
-mini_core/fast:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/build
-.PHONY : mini_core/fast
+many_object_in_stack_example/fast:
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/build
+.PHONY : many_object_in_stack_example/fast
 
 many_object_in_stack_example.o: many_object_in_stack_example.cpp.o
 .PHONY : many_object_in_stack_example.o
 
 # target to build an object file
 many_object_in_stack_example.cpp.o:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/many_object_in_stack_example.cpp.o
 .PHONY : many_object_in_stack_example.cpp.o
 
 many_object_in_stack_example.i: many_object_in_stack_example.cpp.i
@@ -143,7 +143,7 @@ many_object_in_stack_example.i: many_object_in_stack_example.cpp.i
 
 # target to preprocess a source file
 many_object_in_stack_example.cpp.i:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.i
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/many_object_in_stack_example.cpp.i
 .PHONY : many_object_in_stack_example.cpp.i
 
 many_object_in_stack_example.s: many_object_in_stack_example.cpp.s
@@ -151,7 +151,7 @@ many_object_in_stack_example.s: many_object_in_stack_example.cpp.s
 
 # target to generate assembly for a file
 many_object_in_stack_example.cpp.s:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.s
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/many_object_in_stack_example.cpp.s
 .PHONY : many_object_in_stack_example.cpp.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mini_core"
+	@echo "... many_object_in_stack_example"
 	@echo "... many_object_in_stack_example.o"
 	@echo "... many_object_in_stack_example.i"
 	@echo "... many_object_in_stack_example.s"
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wall -Wextra -pedantic -rdynamic CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o -o mini_core  -Wl,-rpath,/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/src ../src/libcore_library.so 
+/usr/bin/c++ -Wall -Wextra -pedantic -rdynamic CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o -o mini_core  -Wl,-rpath,/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/src ../src/libcore_library.so 

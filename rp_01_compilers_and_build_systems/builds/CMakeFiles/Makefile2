@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems
+CMAKE_SOURCE_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds
+CMAKE_BINARY_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,7 +81,7 @@ clean: executables/clean
 # Directory level rules for directory executables
 
 # Recursive "all" directory target.
-executables/all: executables/CMakeFiles/mini_core.dir/all
+executables/all: executables/CMakeFiles/many_object_in_stack_example.dir/all
 .PHONY : executables/all
 
 # Recursive "preinstall" directory target.
@@ -89,7 +89,7 @@ executables/preinstall:
 .PHONY : executables/preinstall
 
 # Recursive "clean" directory target.
-executables/clean: executables/CMakeFiles/mini_core.dir/clean
+executables/clean: executables/CMakeFiles/many_object_in_stack_example.dir/clean
 .PHONY : executables/clean
 
 #=============================================================================
@@ -114,14 +114,14 @@ src/clean: src/CMakeFiles/core_library.dir/clean
 src/CMakeFiles/core_library.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/core_library.dir/build.make src/CMakeFiles/core_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target core_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target core_library"
 .PHONY : src/CMakeFiles/core_library.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/core_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/core_library.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
 .PHONY : src/CMakeFiles/core_library.dir/rule
 
 # Convenience name for target.
@@ -134,30 +134,30 @@ src/CMakeFiles/core_library.dir/clean:
 .PHONY : src/CMakeFiles/core_library.dir/clean
 
 #=============================================================================
-# Target rules for target executables/CMakeFiles/mini_core.dir
+# Target rules for target executables/CMakeFiles/many_object_in_stack_example.dir
 
 # All Build rule for target.
-executables/CMakeFiles/mini_core.dir/all: src/CMakeFiles/core_library.dir/all
-	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/depend
-	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=19,20 "Built target mini_core"
-.PHONY : executables/CMakeFiles/mini_core.dir/all
+executables/CMakeFiles/many_object_in_stack_example.dir/all: src/CMakeFiles/core_library.dir/all
+	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=19,20 "Built target many_object_in_stack_example"
+.PHONY : executables/CMakeFiles/many_object_in_stack_example.dir/all
 
 # Build rule for subdir invocation for target.
-executables/CMakeFiles/mini_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles 20
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/CMakeFiles/mini_core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
-.PHONY : executables/CMakeFiles/mini_core.dir/rule
+executables/CMakeFiles/many_object_in_stack_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 executables/CMakeFiles/many_object_in_stack_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
+.PHONY : executables/CMakeFiles/many_object_in_stack_example.dir/rule
 
 # Convenience name for target.
-mini_core: executables/CMakeFiles/mini_core.dir/rule
-.PHONY : mini_core
+many_object_in_stack_example: executables/CMakeFiles/many_object_in_stack_example.dir/rule
+.PHONY : many_object_in_stack_example
 
 # clean rule for target.
-executables/CMakeFiles/mini_core.dir/clean:
-	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/clean
-.PHONY : executables/CMakeFiles/mini_core.dir/clean
+executables/CMakeFiles/many_object_in_stack_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/clean
+.PHONY : executables/CMakeFiles/many_object_in_stack_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,6 +1,7 @@
-src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: \
- /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_container_manager.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/cassert \
+executables/CMakeFiles/many_object_in_stack_example.dir/many_object_in_stack_example.cpp.o: \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -11,11 +12,6 @@ src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: \
  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/assert.h /usr/include/dlfcn.h \
- /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
- /usr/include/aarch64-linux-gnu/bits/dlfcn.h \
- /usr/include/aarch64-linux-gnu/bits/dl_find_object.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/ostream /usr/include/c++/13/ios \
  /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
@@ -23,6 +19,7 @@ src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
@@ -203,7 +200,8 @@ src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: \
  /usr/include/c++/13/complex /usr/include/c++/13/sstream \
  /usr/include/c++/13/bits/sstream.tcc \
  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
- /usr/include/c++/13/cstddef /usr/include/c++/13/functional \
+ /usr/include/c++/13/cstddef /usr/include/c++/13/cassert \
+ /usr/include/assert.h /usr/include/c++/13/functional \
  /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/cstring \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/13/limits \
  /usr/include/c++/13/climits \
@@ -354,7 +352,6 @@ src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/serializer.h \
  /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_container_manager.h \
  /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_container.h \
  /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property.h \
@@ -362,4 +359,57 @@ src/CMakeFiles/core_library.dir/utils/property_container_manager.cpp.o: \
  /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/object_data.h \
  /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/id_placeholder.h \
  /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_vector.h \
- /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_identifiable.h
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/messages/pose_message.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_eigen.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/geometry_defs.h \
+ /usr/include/eigen3/Eigen/Geometry /usr/include/eigen3/Eigen/Core \
+ /usr/include/eigen3/Eigen/SVD /usr/include/eigen3/Eigen/QR \
+ /usr/include/eigen3/Eigen/Cholesky /usr/include/eigen3/Eigen/Jacobi \
+ /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+ /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
+ /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+ /usr/include/eigen3/Eigen/Householder \
+ /usr/include/eigen3/Eigen/src/Householder/Householder.h \
+ /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+ /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+ /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+ /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+ /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+ /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+ /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+ /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+ /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
+ /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+ /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h /usr/include/eigen3/Eigen/LU \
+ /usr/include/eigen3/Eigen/src/misc/Kernel.h \
+ /usr/include/eigen3/Eigen/src/misc/Image.h \
+ /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
+ /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+ /usr/include/eigen3/Eigen/src/LU/Determinant.h \
+ /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
+ /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+ /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+ /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+ /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+ /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+ /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+ /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+ /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/queue \
+ /usr/include/c++/13/bits/stl_queue.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/geometry3d.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/ad.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/geometry2d.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/messages/odometry_message.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/data_structures/matrix.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/data_structures/matrix.hpp

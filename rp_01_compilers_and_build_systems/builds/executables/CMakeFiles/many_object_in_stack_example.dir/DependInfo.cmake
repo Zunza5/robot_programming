@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp" "executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o" "gcc" "executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o.d"
+  "/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp" "executables/CMakeFiles/many_object_in_stack_example.dir/many_object_in_stack_example.cpp.o" "gcc" "executables/CMakeFiles/many_object_in_stack_example.dir/many_object_in_stack_example.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

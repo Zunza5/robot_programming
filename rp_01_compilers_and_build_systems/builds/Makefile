@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems
+CMAKE_SOURCE_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds
+CMAKE_BINARY_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,17 @@ core_library/fast:
 .PHONY : core_library/fast
 
 #=============================================================================
-# Target rules for targets named mini_core
+# Target rules for targets named many_object_in_stack_example
 
 # Build rule for target.
-mini_core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mini_core
-.PHONY : mini_core
+many_object_in_stack_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 many_object_in_stack_example
+.PHONY : many_object_in_stack_example
 
 # fast build rule for target.
-mini_core/fast:
-	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/mini_core.dir/build.make executables/CMakeFiles/mini_core.dir/build
-.PHONY : mini_core/fast
+many_object_in_stack_example/fast:
+	$(MAKE) $(MAKESILENT) -f executables/CMakeFiles/many_object_in_stack_example.dir/build.make executables/CMakeFiles/many_object_in_stack_example.dir/build
+.PHONY : many_object_in_stack_example/fast
 
 # Help Target
 help:
@@ -151,7 +151,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core_library"
-	@echo "... mini_core"
+	@echo "... many_object_in_stack_example"
 .PHONY : help
 
 

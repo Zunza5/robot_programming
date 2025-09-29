@@ -1,5 +1,5 @@
 executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
@@ -146,7 +146,7 @@ executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/deserializer.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/deserializer.h \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/stl_map.h /usr/include/c++/13/tuple \
@@ -159,9 +159,9 @@ executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/id_context.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/serialization_context.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/blob.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/id_context.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/serialization_context.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/blob.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++io.h \
@@ -344,24 +344,24 @@ executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: \
  /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/identifiable.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/serializable.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/trusted_loaders.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/identifiable.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/serializable.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/trusted_loaders.h \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/property_container_manager.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/property_container.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/property.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/property_macros.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/object_data.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/id_placeholder.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/property_vector.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/messages/pose_message.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/utils/property_eigen.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/geometry/geometry_defs.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_container_manager.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_container.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_macros.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/object_data.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/id_placeholder.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_vector.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/messages/pose_message.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/utils/property_eigen.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/geometry_defs.h \
  /usr/include/eigen3/Eigen/Geometry /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/SVD /usr/include/eigen3/Eigen/QR \
  /usr/include/eigen3/Eigen/Cholesky /usr/include/eigen3/Eigen/Jacobi \
@@ -406,10 +406,10 @@ executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/queue \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/geometry/geometry3d.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/geometry/ad.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/geometry/geometry2d.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/messages/odometry_message.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/data_structures/matrix.h \
- /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/data_structures/matrix.hpp
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/geometry3d.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/ad.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/geometry/geometry2d.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/messages/odometry_message.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/messages/base_sensor_message.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/data_structures/matrix.h \
+ /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/data_structures/matrix.hpp

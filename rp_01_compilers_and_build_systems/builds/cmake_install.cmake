@@ -1,4 +1,4 @@
-# Install script for directory: /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems
+# Install script for directory: /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/src/cmake_install.cmake")
-  include("/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables/cmake_install.cmake")
+  include("/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/src/cmake_install.cmake")
+  include("/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

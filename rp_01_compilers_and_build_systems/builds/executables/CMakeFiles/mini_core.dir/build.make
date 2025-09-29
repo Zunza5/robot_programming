@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems
+CMAKE_SOURCE_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds
+CMAKE_BINARY_DIR = /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds
 
 # Include any dependencies generated for this target.
 include executables/CMakeFiles/mini_core.dir/depend.make
@@ -70,18 +70,18 @@ include executables/CMakeFiles/mini_core.dir/progress.make
 include executables/CMakeFiles/mini_core.dir/flags.make
 
 executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: executables/CMakeFiles/mini_core.dir/flags.make
-executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp
+executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp
 executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o: executables/CMakeFiles/mini_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o"
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o -MF CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o.d -o CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o -c /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o"
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o -MF CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o.d -o CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.o -c /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp
 
 executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.i"
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp > CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.i
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp > CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.i
 
 executables/CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.s"
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp -o CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.s
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables/many_object_in_stack_example.cpp -o CMakeFiles/mini_core.dir/many_object_in_stack_example.cpp.s
 
 # Object files for target mini_core
 mini_core_OBJECTS = \
@@ -94,18 +94,18 @@ executables/mini_core: executables/CMakeFiles/mini_core.dir/many_object_in_stack
 executables/mini_core: executables/CMakeFiles/mini_core.dir/build.make
 executables/mini_core: src/libcore_library.so
 executables/mini_core: executables/CMakeFiles/mini_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mini_core"
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mini_core.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mini_core"
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mini_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 executables/CMakeFiles/mini_core.dir/build: executables/mini_core
 .PHONY : executables/CMakeFiles/mini_core.dir/build
 
 executables/CMakeFiles/mini_core.dir/clean:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables && $(CMAKE_COMMAND) -P CMakeFiles/mini_core.dir/cmake_clean.cmake
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables && $(CMAKE_COMMAND) -P CMakeFiles/mini_core.dir/cmake_clean.cmake
 .PHONY : executables/CMakeFiles/mini_core.dir/clean
 
 executables/CMakeFiles/mini_core.dir/depend:
-	cd /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/builds/executables/CMakeFiles/mini_core.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/builds/executables/CMakeFiles/mini_core.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : executables/CMakeFiles/mini_core.dir/depend
 

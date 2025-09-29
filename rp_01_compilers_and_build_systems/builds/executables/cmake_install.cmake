@@ -1,4 +1,4 @@
-# Install script for directory: /home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/executables
+# Install script for directory: /home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/executables
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

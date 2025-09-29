@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dcore_library_EXPORTS
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src -I/home/zunza/Documents/robotprogramming_2025_26/exercises/rp_01_compilers_and_build_systems/src/.
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src -I/home/zunza/Documents/repo/robot_programming/rp_01_compilers_and_build_systems/src/.
 
 CXX_FLAGS = -Wall -Wextra -pedantic -std=gnu++11 -fPIC
 
